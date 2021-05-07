@@ -75,3 +75,40 @@ main{
     padding: 5px;
 }
 
+
+/* footer */
+footer{
+    display: flex;
+    height: 90px;
+    background-color: #222222;
+}
+
+.col{
+    display: flex;
+    flex: 1 0;
+    align-items: center;
+}
+
+.col-center{
+    flex: 2 0;    
+}
+
+.foot-icon{
+    text-align: center;
+    padding: 10px;
+}
+
+.foot-icon i{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.foot-icon span{
+    display: block;
+}
+
+.col>i{
+    margin: 0 20px;
+}
+
+
